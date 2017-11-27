@@ -15,6 +15,8 @@ The model requires user-input  regarding:
 ## Model Workflow
 
 1) Parameterize your scenario with the *param()* function using the input requirements
+
+![param_ex](https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png)
 2) Execute the model using your scenario file as input using the *exe()* function
 3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the *process()* function
 
