@@ -14,11 +14,21 @@ The model requires user-input  regarding:
 
 ## Model Workflow
 
-1) Parameterize your scenario with the *param()* function using the input requirements
+1) Parameterize your scenario with the **param()** function
 
-![param_ex](https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png)
+ex: scene1 = param()
+
+![param_ex]
+(https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png)
+
 2) Execute the model using your scenario file as input using the *exe()* function
+
+ex: mod_1 = exe(scene1)
+
+
 3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the *process()* function
+
+ex: data = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 
 ![USCB](https://www.ucsb.edu/graphic-identity/downloads/wave/ucsbwave-black.png)
 
@@ -28,5 +38,5 @@ To install the  package, you must install from GitHub using the `devtools` packa
 
 ```r
 library(devtools)
-install_github("mikejohnson51/rainfall_runoff")
+install_github("mikejohnson51/rainfall_infiltration_hillslope")
 ```
