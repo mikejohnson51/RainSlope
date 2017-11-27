@@ -18,7 +18,7 @@ The model requires user-input  regarding:
 
      ex: **scene1 = param()**
      
-![param_example](Rainfall_Infiltration_hillslope/imgs/param_ex.png)
+![param_example](https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png)
 
 2) Execute the model using your scenario file as input using the **exe()** function
 
