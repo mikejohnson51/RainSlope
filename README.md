@@ -18,7 +18,7 @@ The model requires user-input  regarding:
 
      ex: **scene1 = param()**
      
-![param_example](https://www.ucsb.edu/graphic-identity/downloads/wave/ucsbwave-black.png)
+![param_example](Rainfall_Infiltration_hillslope/imgs/param_ex.png)
 
 2) Execute the model using your scenario file as input using the **exe()** function
 
