@@ -16,19 +16,18 @@ The model requires user-input  regarding:
 
 1) Parameterize your scenario with the **param()** function
 
-ex: scene1 = param()
+     ex: **scene1 = param()**
+     
+![param_example](https://www.ucsb.edu/graphic-identity/downloads/wave/ucsbwave-black.png)
 
-![param_ex]
-(https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png)
+2) Execute the model using your scenario file as input using the **exe()** function
 
-2) Execute the model using your scenario file as input using the *exe()* function
-
-ex: mod_1 = exe(scene1)
+     ex: mod_1 = exe(scene1)
 
 
-3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the *process()* function
+3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function
 
-ex: data = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
+     ex: **data = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)**
 
 ![USCB](https://www.ucsb.edu/graphic-identity/downloads/wave/ucsbwave-black.png)
 
