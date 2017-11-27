@@ -1,0 +1,18 @@
+Package: RainfallGA
+Type: Package
+Title: Coupled Infiltration Runoff Model for hill slopes 
+Version: 0.1.0
+Author@R: person("Mike", "Johnson", "mike.johnson@geog.ucsb.edu", role = c("aut", "cre")
+Description: This package contains the necessary functions to execute the hill slope Green and Amp, coupled infiltration runoff model described in Johnson and Loaiciga (2017) and Loaiciga and Johnson (2017). The workflow is fairly straight forward. First a user must set up there scenario file using the param() function to define hill, soil and rainfall properties. Scenario files can be easily duplicated and adjusted using the "Use old scenario" button within the param() GUI. The model algorithm can be executed using a scenario file as an input using the exe() function. Finally, a finished model run can be subset to a set of defined time intervals, exported to .xlsx, and plated using the various control parameters in the process() function. All functions and runs take advantage of the R list object to store variables and output. List objects can be accessed using the '$' operator.
+Imports:
+    gridExtra,
+    reshape2,
+    rootSolve,
+    tcltk,
+    tcltk2,
+    tidyverse,   
+    xlsx
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
