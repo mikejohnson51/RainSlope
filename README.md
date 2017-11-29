@@ -1,6 +1,6 @@
 `Runoff-Infiltration-Model`
 ================
-Model to test variable rainfall rates on the coupled infiltration runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'pubs' directory and an paper in prepration.
+Model to test variable rainfall rates on the coupled infiltration runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an paper in prepration for the Journal of Hydrology.
 
 ## Input Requirements
 The model requires user-input  regarding:
@@ -11,7 +11,6 @@ The model requires user-input  regarding:
     2. Triangular: Rainfall rate derived from total depth, time and time step
     3. Input file: Given as a .csv or .xlsx describing rainfall depth at a given time increment
     4. A distance step and time step for the model to run on
-    
     
 ## Installation
 
