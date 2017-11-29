@@ -23,7 +23,9 @@ install_github("mikejohnson51/rainfall_infiltration_hillslope")
 
 ## Model Workflow
 
-1) Parameterize your scenario with the **param()** function
+1) Parameterize your scenario with the **param()** function. If this is your first time creating a scenario file fill out all pertainent information and click 'submit'. If errors are encountered reference the functions help file using ?param. 
+
+To facilitate sesitivity testing, or multiple scenarios, old scenarios can be modified by entering the files name in the 'Use previos run' heading, clicking 'Use Old Run', modifing as you wish, and click resubmitting.
 
 ```r
 scene1 = param()
@@ -40,7 +42,7 @@ mod_1 = exe(scene1)
 3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function
 
 ```
-data = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
+output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 ```
 
 
