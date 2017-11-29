@@ -23,9 +23,7 @@ install_github("mikejohnson51/rainfall_infiltration_hillslope")
 
 ## Model Workflow
 
-1) Parameterize your scenario with the **param()** function. If this is your first time creating a scenario file fill out all pertainent information and click 'submit'. If errors are encountered reference the functions help file using ?param. 
-
-To facilitate sesitivity testing, or multiple scenarios, old scenarios can be modified by entering the files name in the 'Use previos run' heading, clicking 'Use Old Run', modifing as you wish, and click resubmitting.
+1) Parameterize your scenario with the **param()** function. If this is your first time creating a scenario file fill out all pertainent information and click 'submit'. If errors are encountered reference the functions help file using ?param. *To facilitate sesitivity testing, or multiple scenarios, old scenarios can be modified by entering the files name in the 'Use previos run' heading, clicking 'Use Old Run', modifing as you wish, and clicking resubmitting.*
 
 ```r
 scene1 = param()
