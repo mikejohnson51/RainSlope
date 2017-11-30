@@ -37,7 +37,7 @@ scene1 = param()
 mod_1 = exe(scene1)
 ```
 
-<img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/model_run.png" width="48">
+<img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/model_run.png" width="300">
 
 
 3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function
