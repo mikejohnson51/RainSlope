@@ -28,8 +28,8 @@ install_github("mikejohnson51/rainfall_infiltration_hillslope")
 ```r
 scene1 = param()
 ```
-     
-![param_example](https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png)
+    
+<img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/param_ex.png" width="500" align="center">
 
 2) Execute the model using your scenario file as input using the **exe()** function
 
@@ -37,7 +37,7 @@ scene1 = param()
 mod_1 = exe(scene1)
 ```
 
-<img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/model_run.png" width="600" align="center">
+<img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/model_run.png" width="500" align="center">
 
 
 3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function
