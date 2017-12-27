@@ -45,7 +45,6 @@
 #'
 #' This function will return a three element list (hill, soil, rain) accesable via the '$' operator
 #'
-#' @param NA
 #' @export
 #' @examples
 #' scene1 = param()
@@ -242,9 +241,6 @@ param <- function(){
       param$depth = sum(rain$rain)
       param$rts = (h*60*60) / length(rain$rain)
     }
-
-
-
 
     data = list(hill = hill, soil = soil, rain = rain, param = param)
 

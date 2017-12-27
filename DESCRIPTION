@@ -9,7 +9,6 @@ Imports:
     reshape2,
     rootSolve,
     tcltk,
-    tcltk2,
     tidyverse,   
     xlsx
 License: What license is it under?

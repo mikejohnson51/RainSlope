@@ -21,13 +21,12 @@ options(java.parameters = "- Xmx1024m")
 # ------------------- Step 1: Create Scenario with param() ------------------- #
 ################################################################################
 
-  #scene1 = param()
-  #saveRDS(scene1, 'constant_scene.rds')
-  #scene1 = readRDS("constant_scene.rds")
+  constant = param()
+  saveRDS(scene1, 'constant_scene.rds')
+  constant = readRDS("constant_scene.rds")
   #scene_tri = param()
   #nrcs = param()
-
-
+#test = param()
 ################################################################################
 # ----------------------- Step 2: Run model with exe() ----------------------- #
 ################################################################################

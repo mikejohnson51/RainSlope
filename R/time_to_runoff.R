@@ -11,7 +11,7 @@
 #' @author
 #' Mike Johnson
 
-time_of_runoff = function(scenario_file){
+time_of_runoff = function(mod){
 
   if(tolower(mod$param$type) == "constant"){
 
@@ -42,7 +42,7 @@ time_of_runoff = function(scenario_file){
 
   } else if(tolower(mod$param$type) == "input"){
 
-    mod = nrcs
+    #mod = nrcs
     cos2 = (cos(mod$param$beta*pi/180)^2)
 
 
