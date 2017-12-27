@@ -1,6 +1,6 @@
 `Runoff-Infiltration-Model`
 ================
-Model to test variable rainfall rates on the coupled infiltration runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an paper in prepration for the Journal of Hydrology.
+Model to calculate coupled rainfall/infiltration/runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an in revsion paper for the Journal of Hydrology.
 
 ## Input Requirements
 The model requires user-input  regarding:
@@ -47,4 +47,4 @@ mod_1 = exe(scene1)
 output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 ```
 
-
+![USCB](https://www.ucsb.edu/graphic-identity/downloads/wave/ucsbwave-black.png)
