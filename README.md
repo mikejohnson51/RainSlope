@@ -47,4 +47,4 @@ mod_1 = exe(scene1)
 output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 ```
 
-![USCB](https://upload.wikimedia.org/wikipedia/commons/9/9f/UCSB_logo.png)
+![USCB](https://upload.wikimedia.org/wikipedia/commons/archive/9/9f/20130715012958%21UCSB_logo.png)
