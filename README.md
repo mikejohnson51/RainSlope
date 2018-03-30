@@ -3,7 +3,7 @@
 Model to calculate coupled rainfall/infiltration/runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an in revsion paper for the Journal of Hydrology.
 
 ## Input Requirements
-The model requires user-input  regarding:
+The model requires user-input regarding the:
  1) **Hill shape**: Vertical and horizontal length and depth
  2) **Soil**: Roughness, conductivity, soil water tension, porosity, and volumetric content
  3) **Rainfall**: For this the user has three option:
@@ -23,7 +23,7 @@ install_github("mikejohnson51/RainSlope")
 
 ## Model Workflow
 
-1) Parameterize your scenario with the **param()** function. If this is your first time creating a scenario file fill out all pertainent information and click 'submit'. If errors are encountered reference the functions help file using ?param. *To facilitate sesitivity testing, or multiple scenarios, old scenarios can be modified by entering the files name in the 'Use previos run' heading, clicking 'Use Old Run', modifing as you wish, and clicking resubmitting.*
+1) Parameterize your scenario with the **param()** function. If this is your first time creating a scenario file fill out all pertainent information and click 'submit'. If errors are encountered reference the functions help file using ?param. *To facilitate sesitivity testing, or multiple scenarios, old scenarios can be modified by entering the files name in the 'Use previous run' heading, clicking 'Use Old Run', modifing as you wish, and clicking submit.*
 
 ```r
 scene1 = param()
@@ -46,5 +46,8 @@ mod_1 = exe(scene1)
 ```
 output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 ```
+
+
+
 
 ![USCB](https://upload.wikimedia.org/wikipedia/commons/archive/9/9f/20130715012958%21UCSB_logo.png)
