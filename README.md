@@ -47,4 +47,4 @@ mod_1 = exe(scene1)
 output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 ```
 
-![USCB](https://www.ucsb.edu/graphic-identity/downloads/wave/ucsbwave-black.png)
+![USCB](https://ucsb.box.com/v/visual-identity-seal-2-color)
