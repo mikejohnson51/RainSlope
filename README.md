@@ -1,4 +1,4 @@
-`Runoff-Infiltration-Model`
+`RainSlope Model`
 ================
 Model to calculate coupled rainfall/infiltration/runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an in revsion paper for the Journal of Hydrology.
 
