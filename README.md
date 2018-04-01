@@ -1,6 +1,14 @@
-`RainSlope Model`
+`RainSlope`
 ================
-Model to calculate coupled rainfall/infiltration/runoff patterns on a hill slope. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an in revsion paper for the Journal of Hydrology.
+Model to calculate coupled rainfall-infiltration-runoff patterns on a slope terrain. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an in revsion paper for the Journal of Hydrology. Citations are as follows:
+
+**Johnson and Loaiciga 2017:**
+
+Johnson, J.M., Loaiciga, H.A. (2017)	Coupled Infiltration and Kinematic-Wave Runoff Simulation in Slopes: Implications for Slope Stability. Water, 9, 327.
+
+**Loaiciga and Johnson 2018:** 
+
+Loaiciga, H.A., Johnson, J.M. (2018). Infiltration on sloping terrain and its role on runoff generation and slope stability. Journal of Hydrology (in press).
 
 ## Input Requirements
 The model requires user-input regarding the:
@@ -41,13 +49,10 @@ mod_1 = exe(scene1)
 <img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/model_run.png" width="400">
 </p>
 
-3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function
+3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function. In the following example an excel file and plots will be generated for hours 5,10,15,20 and 24. 
 
 ```
 output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
 ```
-
-
-
 
 ![USCB](https://upload.wikimedia.org/wikipedia/commons/archive/9/9f/20130715012958%21UCSB_logo.png)
