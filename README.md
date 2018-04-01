@@ -45,7 +45,7 @@ mod_1 = exe(scene1)
 <img src= "https://github.com/mikejohnson51/Rainfall_Infiltration_hillslope/blob/master/imgs/model_run.png" width="400">
 </p>
 
-3) Process your results for defined time slices with the option of genrating graphs and an excel workbook using the **process()** function. In the following example an excel file and plots will be generated for hours 5,10,15,20 and 24. 
+3) Process your results for defined time slices by generating graphs and/or writing excel workbooks using the **process()** function. In the following example an excel workbook and plots will be generated for hours 5, 10, 15, 20 and 24 hours. 
 
 ```
 output = process(mod_1, hrs = c(5,10,15,20,24), plots= TRUE, excel = TRUE)
