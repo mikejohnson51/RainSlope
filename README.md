@@ -4,11 +4,11 @@ Model to calculate coupled rainfall-infiltration-runoff patterns on a slope terr
 
 **Johnson and Loaiciga 2017:**
 
-Johnson, J.M., Loaiciga, H.A. (2017)	Coupled Infiltration and Kinematic-Wave Runoff Simulation in Slopes: Implications for Slope Stability. Water, 9, 327.
+*Johnson, J.M., Loaiciga, H.A. (2017)	Coupled Infiltration and Kinematic-Wave Runoff Simulation in Slopes: Implications for Slope Stability. Water, 9, 327.*
 
 **Loaiciga and Johnson 2018:** 
 
-Loaiciga, H.A., Johnson, J.M. (2018). Infiltration on sloping terrain and its role on runoff generation and slope stability. Journal of Hydrology (in press).
+*Loaiciga, H.A., Johnson, J.M. (2018). Infiltration on sloping terrain and its role on runoff generation and slope stability. Journal of Hydrology (in press).*
 
 ## Input Requirements
 The model requires user-input regarding the:
