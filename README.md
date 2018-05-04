@@ -1,4 +1,4 @@
-`RainSlope`
+RainSlope
 ================
 Model to calculate coupled rainfall-infiltration-runoff patterns on a sloped terrain. Based on 2017 and 2018 paper which can be found in the 'publications' directory. Citations are as follows:
 
