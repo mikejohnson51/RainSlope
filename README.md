@@ -1,6 +1,6 @@
 `RainSlope`
 ================
-Model to calculate coupled rainfall-infiltration-runoff patterns on a slope terrain. Based on 2017 paper by Johnson and Loaiciga which can be found in the 'publications' directory and an in revsion paper for the Journal of Hydrology. Citations are as follows:
+Model to calculate coupled rainfall-infiltration-runoff patterns on a slop terrain. Based on 2017 and 2018 paper which can be found in the 'publications' directory. Citations are as follows:
 
 **Johnson and Loaiciga 2017:** *Johnson, J.M., Loaiciga, H.A. (2017)	Coupled Infiltration and Kinematic-Wave Runoff Simulation in Slopes: Implications for Slope Stability. Water, 9, 327.*
 
